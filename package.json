@@ -2,6 +2,9 @@
   "name": "fastify-prisma",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun --hot ./src/index.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -9,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@prisma/client": "^5.7.1",
     "fastify": "^4.25.1"
   }
 }
